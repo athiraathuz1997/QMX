@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <aside id="sidebar-wrapper">
+            <div class="sidebar-brand">
+                <img src="taqa.webp" class="img-fluid" />
+            </div>
+            <ul class="sidebar-nav">
+                <li class="active">
+                    <a href="#"><i class="fa fa-home"></i>Dashboard</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-plug"></i>Sales Order</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-user"></i>Inspection Reports</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-user"></i>Knowledge Hub</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-user"></i>Technical Certifications</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-user"></i>My Equipment</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-user"></i>Settings</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-user"></i>Logout</a>
+                </li>
+            </ul>
+        </aside>
+
+        <div id="navbar-wrapper">
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a href="#" class="navbar-brand" id="sidebar-toggle"><i class="fa fa-bars"></i></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <section id="content-wrapper">
+            <div class="row headAlign">
+                <div class="col-lg-6">
+                    <h2 class="content-title">Welcome , Titto Thomas</h2>
+                </div>
+                <div class="col-lg-6 syncTimeDate">
+                    <div>
+                        <p class="syncInline">Last Sync: 11-Jul-24 7:12:16 PM</p>
+                    </div>
+                    <div><i class="fas fa-sync colorChange"></i></div>
+                </div>
+            </div>
+        </section>
+        <section class="secSection">
+            <div>
+                <div class="newDrilDaterange">
+                    <div class="newDrilBorderbox"><i class="fa-solid fa-circle-plus"></i> Create New Drill Pipe Report
+                    </div>
+                    <div>
+                        <label for="txtFromDate">From: </label>
+                        <span class="datepicker-wrapper">
+                          <input type="text" id="txtFromDate">
+                          <i class="fa fa-calendar-alt"></i>
+                        </span>
+                        <label for="txtToDate">To: </label>
+                        <span class="datepicker-wrapper">
+                          <input type="text" id="txtToDate">
+                          <i class="fa fa-calendar-alt"></i>
+                        </span>
+                      </div>
+                </div>
+            </div>
+        </section>
+        <!-- <section class="thirdSection">
+            <div>
+                <div>
+                    <div class="toggle-button">
+                        <div class="part1 active" onclick="togglePart(this)">Part 1</div>
+                        <div class="part2" onclick="togglePart(this)">Part 2</div>
+                        <div class="part3" onclick="togglePart(this)">Part 3</div>
+                        <div class="part4" onclick="togglePart(this)">Part 4</div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
